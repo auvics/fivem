@@ -1,4 +1,4 @@
-local token = 'bKGuo9h5p7KCaCg7Qpu1x00I9dKSADPX645Ycs7z8cXJmeAyx4Prg1pvNK05EDqk'
+local token = ''
 
 SetHttpHandler(function(req, res)
     local authorization = req.path:match('/ban/(%w+)')
